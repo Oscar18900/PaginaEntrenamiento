@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Salto</title> 
+    <meta name="keywords" content="">
+    <meta name="author" content="Shai Bañuelos, Oscar Acuña Gámez">
+    <link rel="stylesheet" href="../assets/style_index.css">
+</head>
+<body>
+    <script>
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY; 
+            const zoomLevel = 100 + scrollPosition * 0.06; 
+            document.body.style.backgroundSize = `${zoomLevel}% auto`;
+        });
+    </script>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                Lucky <img src="../imagenes/trebolpng.png" alt="trébol de tres hojas" class="header__logo--image">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav--list">
+                    <li class="header__nav--item"><a href="index.html" class="header__nav--link">Inicio</a></li>
+                    <li class="header__nav--item header__nav--dropdown">
+                        <a href="#sobreNosotros" class="header__nav--link">Sobre Nosotros</a>
+                        <div class="dropdown__menu">
+                            <p>
+                                <strong>Conoce nuestra historia</strong>
+                                Somos un par de jóvenes apasionados por el mundo de las tecnologías de la información, inspirados por la dedicación y el impacto positivo de los profesionales que lideran este sector. A lo largo de nuestra trayectoria, hemos admirado cómo la tecnología puede transformar empresas, comunidades y vidas, y esa admiración nos motivó a dar un paso hacia la creación de Primer Salto.                            </p>
+                        </div>
+                    </li>
+                    <li class="header__nav--item header__nav--dropdown">
+                        <a href="#objetivo" class="header__nav--link">Objetivo</a>
+                        <div class="dropdown__menu">
+                            <p>
+                                <strong>Nuestro Objetivo</strong>
+                                En Primer Salto, entendemos lo desafiante que puede ser dar el primer paso en el mundo laboral. Por eso, creamos una plataforma dedicada a ayudar a los recién egresados en tecnología a iniciar con éxito su carrera profesional. Ofrecemos recursos, consejos prácticos y herramientas para preparar entrevistas, mejorar tu currículum y construir una sólida presencia en línea. Nuestro objetivo es ser tu aliado en este emocionante viaje hacia tu futuro profesional.                        </div>
+                    </li>
+                    <li class="header__nav--item"><a href="contacto.html" class="header__nav--link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main" id="inicio">
+        <section class="main__section--ods">
+                <div class="ods__container--content">
+                    <h1 class="ods__tittle">Primer Salto</h1>
+                    <p class="ods__paragraph">
+                        "Primer Salto" es una página diseñada para recién egresados del ámbito de la tecnología que buscan dar sus primeros pasos en el mercado laboral. Aquí encontrarás consejos prácticos para destacar en entrevistas, preparar un currículum efectivo, y aprender a construir una presencia profesional en línea.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="main__section main__section--resources">
+            <div class="section__div--recursos">
+                <h2 class="div__h2">Recursos</h2>
+                <p class="div__paragraph_">Encuentra herramientas esenciales para destacar en el mundo laboral, desde plantillas de currículum hasta guías para construir tu presencia profesional en línea. Todo lo que necesitas para dar tu primer salto en el mundo laboral tecnológico.</p>
+            </div>
+            <div class="section__div">
+                <h2 class="section__h2 section--curriculo">Currículum</h2>
+                <p>Descubre cómo crear un currículum efectivo, con ejemplos específicos para el sector IT y consejos prácticos para destacar tus habilidades y logros.</p>
+                <a href="curriculum.html" class="div__a"><button class="div__button button--curriculum">Saber más</button></a>
+            </div>
+            <div class="section__div">
+                <h2 class="section__h2 section--entrevista">Entrevistas</h2>
+                <p>Prepárate para brillar en tus entrevistas con guías de preguntas frecuentes y estrategias para responder con confianza.</p>
+                <a href="entrevistas.html" class="div__a"><button class="div__button button--entrevista">Saber más</button></a>
+            </div>
+            <div class="section__div">
+                <h2 class="section__h2 section--presencia">Presencia en línea</h2>
+                <p>Construye tu marca profesional en plataformas como LinkedIn, portafolios web y redes sociales para captar la atención</p>
+                <a href="presencia.html" class="div__a"><button class="div__button button--presencia">Saber más</button></a>
+            </div>
+        </section>
+        <section class="main__section main__section--works">
+            <div class="section__div--empleos">
+                <h2>Empleos</h2>
+                <p>Explora oportunidades laborales y prácricas. Aprende cómo leer ofertas,<br> postularte de manera efectiva y destacar en un mercado competitivo.</p>
+            </div>
+            <div class="main__divgeneral">
+                <div class="section__div section__div--cambios">
+                    <h2 class="section__h2 vacantes">Vacantes Destacadas</h2>
+                    <p>Accede a oportunidades laborales exclusivas y prácticas profesionales en empresas líderes del sector tecnológico.</p>
+                    <a href="vacantes.html" class="div__a"><button class="div__button button--vacantes">Saber más</button></a>
+                </div>
+                <div class="section__div section__div--cambios">
+                    <h2 class="section__h2 guias">Guías Para Aplicar</h2>
+                    <p>Aprende a interpretar ofertas laborales, postularte correctamente y dar seguimiento para destacar entre los candidatos.</p>
+                    <a href="guias.html" class="div__a"><button class="div__button button--guias">Saber más</button></a>
+                </div>
+                <div class="section__div section__div--cambios">
+                    <h2 class="section__h2 sectores">Sectores Tecnológicos</h2>
+                    <p>Conoce las áreas clave del mercado IT, como desarrollo de software, ciencia de datos y ciberseguridad, y descubre cuál se adapta a ti.</p>
+                    <a href="sectores.html" class="div__a"><button class="div__button button--sectores">Saber más</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="statistics">
+            <h2 class="statistics__title">Estamos construyendo el futuro de los profesionales IT.</h2>
+            <div class="statistics__container">
+                <div class="statistics__item">
+                    <span class="statistics__number">85%</span>
+                    <p class="statistics__text">de empleadores en tecnología buscan habilidades específicas como programación y análisis de datos.</p>
+                </div>
+                <div class="statistics__item">
+                    <span class="statistics__number">988</span>
+                    <p class="statistics__text">Millones de pesos facturados en el sector TI de México.</p>
+                </div>
+                <div class="statistics__item">
+                    <span class="statistics__number">3 de cada 5</span>
+                    <p class="statistics__text">Egresados han conseguido empleo gracias a una buena preparación.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="main__section main__section--data">
+            <div class="main__div--datos">
+                <h2>Datos</h2>
+                <p>datos clave para entender el mercado laboral en tecnología. Descubre estadísticas de empleo que te ayudarán a identificar tendencias y analiza gráficos detallados sobre el crecimiento y las oportunidades del sector TI en México.
+                </p>
+                <h3 class="Grafica_titulo">Salarios de Trabajos de Tecnologias</h3>
+                <p class="Grafica_descripcion">La gráfica presenta los salarios promedio de trabajos en Tecnologías de la Información (TI) en los diferentes estados de México. Estos datos destacan las variaciones salariales según la ubicación geográfica, reflejando cómo la demanda de talento tecnológico y el costo de vida influyen en las oportunidades económicas en el sector.</p>
+                <div class="Graficas_trabajos">
+                    <canvas id="myChart2"></canvas>
+                </div>
+                <h3 class="Grafica_titulo">Porcentaje de tecnologias con mas crecimiento</h3>
+                <p class="Grafica_descripcion">La gráfica muestra el porcentaje de crecimiento de las tecnologías más demandadas en la industria, como Java, .Net, SAP y Python. Estos datos reflejan las tendencias actuales del mercado laboral en Tecnologías de la Información, destacando las habilidades más valoradas y con mayor proyección de crecimiento en el sector.</p>
+                <div class="Graficas_trabajos">
+                    <canvas id="myChart"></canvas>
+                </div>
+                  
+                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                  
+                  <script>
+                    const ctx = document.getElementById('myChart');
+                  
+                    new Chart(ctx, {
+                      type: 'pie',
+                      data: {
+                        labels: ['Java', '.Net', 'SAP', 'Python','Scrum', 'Azure','Aws'],
+                        datasets: [{
+                          label: 'Porcentaje de tecnologias con mas crecimiento',
+                          data: [9.8, 4.4, 3.8, 3.2,3.2,3.2,2.9], backgroundColor:
+                          ['rgba(144, 238, 144, 1)', 'rgba(255, 105, 180, 1)', 'rgba(255, 165, 0, 1)', 'rgba(138, 43, 226, 1)', 'rgba(30, 144, 255, 1)', 'rgba(238, 130, 238, 1)', 'rgba(255, 255, 0, 1)'],
+                          borderWidth: 1
+                        }]
+                      },
+                      options: {
+                        scales: {
+                            x: {
+                            ticks: {
+                                color: 'white'
+                            }
+                        },
+
+                          y: {
+                            ticks: {
+                            color: 'white' 
+                            },
+                            beginAtZero: true
+                          }
+                          
+                        }
+                      }
+                    });
+                  </script>
+
+                    <script>
+                        const ctx2 = document.getElementById('myChart2');
+                    
+                        new Chart(ctx2, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Nuevo Leon', 'Quintana Roo', 'Queretaro', 'Jalisco', 'Cdmx', 'Baja Califorina Norte', 'Aguascalientes', 'Yucatan'],
+                            datasets: [{
+                            label: 'Salarios de trabajos en tecnologias',
+                            data: [41392.5, 39312.5, 37560.6, 35820.2, 35202, 35172.8, 33478.1, 33013.6 ], backgroundColor:
+                            [
+                                'rgba(255, 99, 132, 1)',  
+                                'rgba(54, 162, 235, 1)',  
+                                'rgba(255, 206, 86, 1)',   
+                                'rgba(75, 192, 192, 1)',   
+                                'rgba(153, 102, 255, 1)',  
+                                'rgba(255, 159, 64, 1)',   
+                                'rgba(201, 203, 207, 1)',  
+                                'rgba(0, 128, 128, 1)'     
+                            ],
+                            borderWidth: 1
+                            }]
+                        },
+                        options: {
+                        scales: {
+                            x: {
+                            ticks: {
+                                color: 'white' 
+                            }
+                        },
+
+                        y: {
+                            ticks: {
+                            color: 'white'
+                            },
+                            beginAtZero: true
+                        }
+                        }
+                    }
+                    });
+                    </script>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lucky. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
